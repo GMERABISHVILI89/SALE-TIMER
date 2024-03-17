@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.container {
+  max-width: 800px;
+  height: 350px;
+  margin: 150px auto;
+  background-color: rgb(255 233 93);
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  padding: 40px;
+}
+
+.info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  font-weight: bold;
+  font-size: 24px;
+}
+.line1 {
+  width: 70px;
+  border: 2px solid black;
+}
+.sale-percentage {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 40px;
+}
+.time {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.time-end {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 75%;
+  justify-items: center;
+}
+.time-end div div {
+  background-color: #ffffff;
+  padding: 18px 15px;
+  border-radius: 8px;
+  font-size: 20px;
+  text-align: center;
+}
+.time-end div span {
+  padding: 4px 7px;
+  margin-left: 4px;
+}
+.time p {
+  font-style: italic;
+  font-weight: 200;
+  font-size: 20px;
+}
+.promo-code {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 18px;
+  padding: 10px 0;
+}
+
+.image img {
+  width: 100%;
+  height: 340px;
+  border-radius: 10px;
+}
